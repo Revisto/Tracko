@@ -1,0 +1,424 @@
+Traceback (most recent call last):
+  File "Tracko.py", line 2, in <module>
+    from flask_recaptcha import ReCaptcha
+ModuleNotFoundError: No module named 'flask_recaptcha'
+Traceback (most recent call last):
+  File "Tracko.py", line 2, in <module>
+    from flask_recaptcha import ReCaptcha
+ModuleNotFoundError: No module named 'flask_recaptcha'
+Traceback (most recent call last):
+  File "Tracko.py", line 2, in <module>
+    from flask_recaptcha import ReCaptcha
+ModuleNotFoundError: No module named 'flask_recaptcha'
+ * Serving Flask app "Tracko" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:8525/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [02/Oct/2020 23:14:35] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[32mGET /static//css/bootstrap-reboot.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[32mGET /static//css/bootstrap-grid.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[32mGET /static//css/owl.carousel.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[32mGET /static//css/jquery.mCustomScrollbar.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[32mGET /static//css/nouislider.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[32mGET /static//css/ionicons.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[32mGET /static//css/plyr.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[32mGET /static//css/photoswipe.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[32mGET /static//css/default-skin.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[32mGET /static//css/main.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[37mGET /static/css/bootstrap-reboot.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[37mGET /static/css/bootstrap-grid.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[37mGET /static/css/owl.carousel.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[37mGET /static/css/jquery.mCustomScrollbar.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[37mGET /static/css/nouislider.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[37mGET /static/css/ionicons.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:36] "[37mGET /static/css/default-skin.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:37] "[37mGET /static/css/main.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:37] "[37mGET /static/css/plyr.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:37] "[37mGET /static/css/photoswipe.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:37] "[32mGET /static//img/logo.svg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:37] "[32mGET /static//img/covers/cover2.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:37] "[32mGET /static//js/jquery-3.3.1.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:37] "[32mGET /static//img/covers/cover3.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:37] "[32mGET /static//img/covers/cover4.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:37] "[32mGET /static//img/covers/cover5.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:37] "[37mGET /static/img/logo.svg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:37] "[37mGET /static/img/covers/cover2.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:38] "[37mGET /static/js/jquery-3.3.1.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:38] "[37mGET /static/img/covers/cover3.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:38] "[37mGET /static/img/covers/cover4.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:38] "[37mGET /static/img/covers/cover5.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:39] "[33mGET /static/css/bootstrap-reboot.min.css.map HTTP/1.0[0m" 404 -
+127.0.0.1 - - [02/Oct/2020 23:14:39] "[32mGET /static//js/bootstrap.bundle.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:39] "[33mGET /static/css/bootstrap-grid.min.css.map HTTP/1.0[0m" 404 -
+127.0.0.1 - - [02/Oct/2020 23:14:39] "[32mGET /static//js/owl.carousel.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:39] "[37mGET /static/js/bootstrap.bundle.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:39] "[32mGET /static//js/jquery.mousewheel.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:39] "[37mGET /static/fonts/ioniconse0a5.woff2?v=4.3.0 HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:39] "[37mGET /static/js/owl.carousel.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:40] "[32mGET /static//img/covers/cover6.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:40] "[37mGET /static/js/jquery.mousewheel.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:40] "[32mGET /static//js/jquery.mCustomScrollbar.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:40] "[32mGET /static//js/wNumb.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:41] "[32mGET /static//js/nouislider.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:41] "[37mGET /static/img/covers/cover6.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:41] "[37mGET /static/js/jquery.mCustomScrollbar.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:41] "[37mGET /static/js/wNumb.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:41] "[32mGET /static//js/plyr.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:41] "[37mGET /static/js/nouislider.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:41] "[32mGET /static//js/jquery.morelines.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:41] "[37mGET /static/js/plyr.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:41] "[32mGET /static//js/photoswipe.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:41] "[32mGET /static//js/photoswipe-ui-default.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:41] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.0[0m" 404 -
+127.0.0.1 - - [02/Oct/2020 23:14:41] "[32mGET /static//js/main.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:42] "[37mGET /static/js/jquery.morelines.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:42] "[37mGET /static/js/photoswipe-ui-default.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:42] "[37mGET /static/js/photoswipe.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:42] "[37mGET /static/js/main.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:43] "[33mGET /static/js/plyr.min.js.map HTTP/1.0[0m" 404 -
+127.0.0.1 - - [02/Oct/2020 23:14:43] "[32mGET /static//img/home/home__bg3.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:43] "[32mGET /static//img/home/home__bg4.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:43] "[32mGET /static//img/home/home__bg.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:43] "[32mGET /static//img/home/home__bg2.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:14:43] "[37mGET /static/img/home/home__bg4.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:43] "[37mGET /static/img/home/home__bg.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:43] "[37mGET /static/img/home/home__bg3.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:14:43] "[37mGET /static/img/home/home__bg2.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:15:04] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:15:05] "[37mGET /static/img/home/home__bg.jpg HTTP/1.0[0m" 206 -
+127.0.0.1 - - [02/Oct/2020 23:15:05] "[37mGET /static/img/home/home__bg.jpg HTTP/1.0[0m" 206 -
+127.0.0.1 - - [02/Oct/2020 23:15:08] "[37mGET /SignIn HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:15:08] "[33mGET /static/css/bootstrap-reboot.min.css.map HTTP/1.0[0m" 404 -
+127.0.0.1 - - [02/Oct/2020 23:15:08] "[33mGET /static/css/bootstrap-grid.min.css.map HTTP/1.0[0m" 404 -
+127.0.0.1 - - [02/Oct/2020 23:15:08] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.0[0m" 404 -
+127.0.0.1 - - [02/Oct/2020 23:15:08] "[33mGET /static/js/plyr.min.js.map HTTP/1.0[0m" 404 -
+127.0.0.1 - - [02/Oct/2020 23:15:58] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:15:59] "[37mGET /static/img/home/home__bg.jpg HTTP/1.0[0m" 206 -
+127.0.0.1 - - [02/Oct/2020 23:15:59] "[37mGET /static/img/home/home__bg.jpg HTTP/1.0[0m" 206 -
+127.0.0.1 - - [02/Oct/2020 23:16:06] "[37mGET /SignIn HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:16:15] "[32mPOST /SignInForm HTTP/1.0[0m" 302 -
+127.0.0.1 - - [02/Oct/2020 23:16:15] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:16:18] "[37mGET /AddMedia HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:18:54] "[32mPOST /AddMedia_Add HTTP/1.0[0m" 302 -
+127.0.0.1 - - [02/Oct/2020 23:18:54] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:18:54] "[32mGET /static//img/Media/revisto/Better_Call_Saul.jpg HTTP/1.0[0m" 308 -
+ * Detected change in '/root/Tracko/Data.py', reloading
+JSON:  {'success': True, 'challenge_ts': '2020-10-02T19:46:07Z', 'hostname': 'tracko.revisto.ir'}
+SUCCESS
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [02/Oct/2020 23:18:55] "[37mGET /static/img/Media/revisto/Better_Call_Saul.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:19:02] "[37mGET /Update HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:19:18] "[32mPOST /Update_Media HTTP/1.0[0m" 302 -
+127.0.0.1 - - [02/Oct/2020 23:19:18] "[37mGET / HTTP/1.0[0m" 200 -
+ * Detected change in '/root/Tracko/Data.py', reloading
+Better Call Saul 03 08 12 20
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [02/Oct/2020 23:20:47] "[37mGET /AddMedia HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:22:26] "[32mPOST /AddMedia_Add HTTP/1.0[0m" 302 -
+127.0.0.1 - - [02/Oct/2020 23:22:27] "[37mGET / HTTP/1.0[0m" 200 -
+ * Detected change in '/root/Tracko/Data.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [02/Oct/2020 23:22:28] "[32mGET /static//img/Media/revisto/BoJack_Horseman.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:22:28] "[37mGET /static/img/Media/revisto/BoJack_Horseman.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:22:31] "[37mGET /Update HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:22:45] "[32mPOST /Update_Media HTTP/1.0[0m" 302 -
+127.0.0.1 - - [02/Oct/2020 23:22:45] "[37mGET / HTTP/1.0[0m" 200 -
+ * Detected change in '/root/Tracko/Data.py', reloading
+BoJack Horseman 01 04 02 30
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [02/Oct/2020 23:24:33] "[37mGET /AddMedia HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:30:22] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:35:52] "[35m[1mPOST /AddMedia_Add HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/PIL/JpegImagePlugin.py", line 614, in _save
+    rawmode = RAWMODE[im.mode]
+KeyError: 'RGBA'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/Tracko/Tracko.py", line 136, in handle_Add
+    Resize('static/img/Media/'+session["Username"].lower()+'/'+Name.replace(' ', '_')+'.jpg')
+  File "/root/Tracko/_C_.py", line 63, in Resize
+    img.save(path)
+  File "/usr/local/lib/python3.8/dist-packages/PIL/Image.py", line 2158, in save
+    save_handler(self, fp, filename)
+  File "/usr/local/lib/python3.8/dist-packages/PIL/JpegImagePlugin.py", line 616, in _save
+    raise OSError("cannot write mode %s as JPEG" % im.mode) from e
+OSError: cannot write mode RGBA as JPEG
+127.0.0.1 - - [02/Oct/2020 23:35:53] "[37mGET /AddMedia_Add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:35:53] "[37mGET /AddMedia_Add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:35:53] "[37mGET /AddMedia_Add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:35:54] "[37mGET /AddMedia_Add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:35:54] "[37mGET /AddMedia_Add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:36:33] "[32mPOST /AddMedia_Add HTTP/1.0[0m" 302 -
+ * Detected change in '/root/Tracko/Data.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [02/Oct/2020 23:36:34] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:36:34] "[32mGET /static//img/Media/revisto/Radio_Geek.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:36:35] "[37mGET /static/img/Media/revisto/Radio_Geek.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:37:17] "[37mGET /AddMedia HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:37:49] "[37mGET /DeleteShow HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:37:51] "[32mPOST /DeleteForm HTTP/1.0[0m" 302 -
+127.0.0.1 - - [02/Oct/2020 23:37:52] "[37mGET / HTTP/1.0[0m" 200 -
+ * Detected change in '/root/Tracko/Data.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [02/Oct/2020 23:37:56] "[32mPOST /AddMedia_Add HTTP/1.0[0m" 302 -
+127.0.0.1 - - [02/Oct/2020 23:37:56] "[37mGET / HTTP/1.0[0m" 200 -
+ * Detected change in '/root/Tracko/Data.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [02/Oct/2020 23:41:21] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:41:23] "[37mGET / HTTP/1.0[0m" 200 -
+ * Detected change in '/root/Tracko/_C_.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [02/Oct/2020 23:42:10] "[37mGET /DeleteShow HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:42:15] "[37mGET /DeleteShow HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:42:23] "[35m[1mPOST /DeleteForm HTTP/1.0[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/Tracko/Tracko.py", line 105, in handle_Delete
+    DeleteShow(session["Username"],Name)
+  File "/root/Tracko/_C_.py", line 74, in DeleteShow
+    remove(D[x]['Pic'])
+FileNotFoundError: [Errno 2] No such file or directory: '/static//img/Media/revisto/Radio_Geek.jpg'
+127.0.0.1 - - [02/Oct/2020 23:42:24] "[37mGET /DeleteForm?__debugger__=yes&cmd=resource&f=style.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:42:24] "[37mGET /DeleteForm?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:42:25] "[37mGET /DeleteForm?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:42:27] "[37mGET /DeleteForm?__debugger__=yes&cmd=resource&f=console.png HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:42:27] "[37mGET /DeleteForm?__debugger__=yes&cmd=resource&f=console.png HTTP/1.0[0m" 200 -
+ * Detected change in '/root/Tracko/_C_.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [02/Oct/2020 23:44:59] "[32mPOST /DeleteForm HTTP/1.0[0m" 302 -
+127.0.0.1 - - [02/Oct/2020 23:45:00] "[37mGET / HTTP/1.0[0m" 200 -
+ * Detected change in '/root/Tracko/Data.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [02/Oct/2020 23:45:10] "[37mGET /Update HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:45:12] "[37mGET /AddMedia HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:45:40] "[32mPOST /AddMedia_Add HTTP/1.0[0m" 302 -
+127.0.0.1 - - [02/Oct/2020 23:45:41] "[37mGET / HTTP/1.0[0m" 200 -
+ * Detected change in '/root/Tracko/Data.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [02/Oct/2020 23:46:39] "[37mGET /DeleteShow HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:46:41] "[32mPOST /DeleteForm HTTP/1.0[0m" 302 -
+127.0.0.1 - - [02/Oct/2020 23:46:42] "[37mGET / HTTP/1.0[0m" 200 -
+ * Detected change in '/root/Tracko/Data.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [02/Oct/2020 23:46:47] "[37mGET /AddMedia HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:47:13] "[32mPOST /AddMedia_Add HTTP/1.0[0m" 302 -
+127.0.0.1 - - [02/Oct/2020 23:47:13] "[37mGET / HTTP/1.0[0m" 200 -
+ * Detected change in '/root/Tracko/Data.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [02/Oct/2020 23:49:07] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:07] "[32mGET /static//css/bootstrap-reboot.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:07] "[32mGET /static//css/bootstrap-grid.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:07] "[32mGET /static//css/owl.carousel.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:07] "[32mGET /static//css/jquery.mCustomScrollbar.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:07] "[32mGET /static//css/nouislider.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:07] "[32mGET /static//css/ionicons.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:07] "[32mGET /static//css/plyr.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:07] "[32mGET /static//css/photoswipe.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:07] "[32mGET /static//css/default-skin.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:08] "[32mGET /static//css/main.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:08] "[37mGET /static/css/bootstrap-reboot.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:08] "[37mGET /static/css/bootstrap-grid.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:08] "[37mGET /static/css/owl.carousel.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:08] "[32mGET /static//js/jquery-3.3.1.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:08] "[37mGET /static/css/nouislider.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:08] "[37mGET /static/css/plyr.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:08] "[37mGET /static/css/photoswipe.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:08] "[37mGET /static/css/default-skin.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:08] "[37mGET /static/css/jquery.mCustomScrollbar.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:08] "[37mGET /static/css/ionicons.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:08] "[37mGET /static/css/main.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:08] "[37mGET /static/js/jquery-3.3.1.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:08] "[32mGET /static//js/bootstrap.bundle.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:08] "[32mGET /static//js/owl.carousel.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:09] "[37mGET /static/js/bootstrap.bundle.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:09] "[37mGET /static/js/owl.carousel.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:09] "[32mGET /static//js/jquery.mousewheel.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:09] "[32mGET /static//js/jquery.mCustomScrollbar.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:09] "[37mGET /static/js/jquery.mousewheel.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:09] "[37mGET /static/js/jquery.mCustomScrollbar.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:09] "[32mGET /static//js/wNumb.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:09] "[32mGET /static//js/nouislider.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:10] "[32mGET /static//js/plyr.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:10] "[37mGET /static/fonts/ioniconse0a5.woff2?v=4.3.0 HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:10] "[32mGET /static//img/Media/revisto/Radio_Geek.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:10] "[32mGET /static//img/Media/revisto/BoJack_Horseman.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:10] "[37mGET /static/js/wNumb.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:11] "[37mGET /static/img/Media/revisto/Radio_Geek.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:11] "[37mGET /static/js/nouislider.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:11] "[37mGET /static/img/Media/revisto/BoJack_Horseman.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:11] "[32mGET /static//img/logo.svg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:11] "[37mGET /static/js/plyr.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:11] "[37mGET /static/img/logo.svg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:12] "[32mGET /static//js/photoswipe.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:12] "[32mGET /static//js/photoswipe-ui-default.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:12] "[32mGET /static//js/main.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:12] "[32mGET /static//js/jquery.morelines.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:12] "[37mGET /static/js/photoswipe.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:12] "[37mGET /static/js/photoswipe-ui-default.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:12] "[37mGET /static/js/main.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:12] "[37mGET /static/js/jquery.morelines.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:12] "[32mGET /static//img/Media/revisto/Better_Call_Saul.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:12] "[37mGET /static/img/Media/revisto/Better_Call_Saul.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:13] "[32mGET /static//img/home/home__bg3.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:13] "[32mGET /static//img/home/home__bg4.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:13] "[32mGET /static//img/home/home__bg.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:13] "[32mGET /static//img/home/home__bg2.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [02/Oct/2020 23:49:13] "[37mGET /static/img/home/home__bg3.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:13] "[37mGET /static/img/home/home__bg2.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:13] "[37mGET /static/img/home/home__bg4.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:13] "[37mGET /static/img/home/home__bg.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:49:22] "[37mGET /Update HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:50:36] "[32mPOST /Update_Media HTTP/1.0[0m" 302 -
+127.0.0.1 - - [02/Oct/2020 23:50:36] "[37mGET / HTTP/1.0[0m" 200 -
+ * Detected change in '/root/Tracko/Data.py', reloading
+Radio Geek  96 18 02
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [02/Oct/2020 23:50:37] "[37mGET /static/img/home/home__bg.jpg HTTP/1.0[0m" 206 -
+127.0.0.1 - - [02/Oct/2020 23:50:37] "[37mGET /static/img/home/home__bg.jpg HTTP/1.0[0m" 206 -
+127.0.0.1 - - [02/Oct/2020 23:52:05] "[37mGET /AddMedia HTTP/1.0[0m" 200 -
+127.0.0.1 - - [02/Oct/2020 23:54:22] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [02/Oct/2020 23:54:43] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:05:27] "[32mPOST /AddMedia_Add HTTP/1.0[0m" 302 -
+127.0.0.1 - - [03/Oct/2020 00:05:28] "[37mGET / HTTP/1.0[0m" 200 -
+ * Detected change in '/root/Tracko/Data.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [03/Oct/2020 00:05:28] "[32mGET /static//img/Media/revisto/Planet_Earth_II.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:05:29] "[37mGET /static/img/Media/revisto/Planet_Earth_II.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:05:34] "[37mGET /Update HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:08] "[37mGET /Update HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:09] "[32mGET /static//css/bootstrap-reboot.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:09] "[32mGET /static//css/bootstrap-grid.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:09] "[32mGET /static//css/jquery.mCustomScrollbar.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:09] "[32mGET /static//css/owl.carousel.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:09] "[32mGET /static//css/nouislider.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:09] "[32mGET /static//css/ionicons.min.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:09] "[32mGET /static//css/plyr.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:09] "[32mGET /static//css/photoswipe.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:09] "[32mGET /static//css/main.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:09] "[37mGET /static/css/bootstrap-reboot.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:09] "[37mGET /static/css/bootstrap-grid.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:09] "[37mGET /static/css/jquery.mCustomScrollbar.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:09] "[37mGET /static/css/owl.carousel.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:09] "[37mGET /static/css/nouislider.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:09] "[32mGET /static//css/default-skin.css HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:09] "[37mGET /static/css/ionicons.min.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:10] "[37mGET /static/css/plyr.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:10] "[37mGET /static/css/photoswipe.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:10] "[37mGET /static/css/main.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:10] "[37mGET /static/css/default-skin.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:10] "[32mGET /static//js/jquery-3.3.1.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:10] "[32mGET /static//js/bootstrap.bundle.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:10] "[32mGET /static//js/owl.carousel.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:10] "[37mGET /static/js/jquery-3.3.1.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:10] "[32mGET /static//js/jquery.mousewheel.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:10] "[37mGET /static/js/bootstrap.bundle.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:10] "[32mGET /static//js/jquery.mCustomScrollbar.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:10] "[37mGET /static/js/owl.carousel.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:11] "[37mGET /static/js/jquery.mousewheel.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:11] "[37mGET /static/js/jquery.mCustomScrollbar.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:11] "[32mGET /static//js/wNumb.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:11] "[37mGET /static/js/wNumb.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:11] "[32mGET /static//js/nouislider.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:11] "[32mGET /static//js/plyr.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:11] "[32mGET /static//js/jquery.morelines.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:11] "[32mGET /static//img/logo.svg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:11] "[37mGET /static/js/nouislider.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:11] "[37mGET /static/js/plyr.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:12] "[37mGET /static/js/jquery.morelines.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:12] "[37mGET /static/img/logo.svg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:12] "[32mGET /static//js/photoswipe.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:12] "[32mGET /static//js/photoswipe-ui-default.min.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:12] "[32mGET /static//js/main.js HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:12] "[37mGET /static/js/photoswipe.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:12] "[37mGET /static/js/main.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:12] "[37mGET /static/js/photoswipe-ui-default.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:13] "[32mGET /static//img/section/section.jpg HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:13] "[37mGET /static/img/section/section.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:15] "[32mGET /static//icon/favicon-32x32.png HTTP/1.0[0m" 308 -
+127.0.0.1 - - [03/Oct/2020 00:07:16] "[37mGET /static/icon/favicon-32x32.png HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:25] "[32mPOST /Update_Media HTTP/1.0[0m" 302 -
+127.0.0.1 - - [03/Oct/2020 00:07:25] "[37mGET / HTTP/1.0[0m" 200 -
+ * Detected change in '/root/Tracko/Data.py', reloading
+Planet Earth II  03 00 00
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-019-627
+127.0.0.1 - - [03/Oct/2020 00:07:42] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [03/Oct/2020 00:07:43] "[37mGET / HTTP/1.0[0m" 200 -

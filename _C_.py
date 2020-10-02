@@ -7,6 +7,8 @@ from os import mkdir
 import Data 
 import PIL
 from PIL import Image
+from os import remove
+
 
 Card='''
 	<div class="col-6 col-sm-12 col-lg-6">
@@ -69,6 +71,8 @@ def DeleteShow(Username,name):
     
     for x in range (len(D)):
         if D[x]['Name']==name:
+            href=(D[x]['Pic']).replace('//', '/');href=href[1:]
+            remove(href)
             D.remove(D[x])
             break 
 
