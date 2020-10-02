@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CUbuntu:300,400,500,700" rel="stylesheet"> 
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/static//css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="/static//css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="/static//css/owl.carousel.min.css">
+	<link rel="stylesheet" href="/static//css/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" href="/static//css/nouislider.min.css">
+	<link rel="stylesheet" href="/static//css/ionicons.min.css">
+	<link rel="stylesheet" href="/static//css/plyr.css">
+	<link rel="stylesheet" href="/static//css/photoswipe.css">
+	<link rel="stylesheet" href="/static//css/default-skin.css">
+	<link rel="stylesheet" href="/static//css/main.css">
+
+	<!-- Favicons -->
+	<link rel="icon" type="image/png" href="/static//icon/favicon-32x32.png" sizes="32x32">
+	<link rel="apple-touch-icon" href="/static//icon/favicon-32x32.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/static//icon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/static//icon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/static//icon/apple-touch-icon-144x144.png">
+
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Dmitry Volkov">
+	<title>Help | Who Are We And What Do We Do | Tracko</title>
+
+</head>
+<body class="body">
+	
+	<!-- header -->
+	<header class="header">
+		<div class="header__wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="header__content">
+							<!-- header logo -->
+							<a href="index.html" class="header__logo">
+								<img src="/static//img/logo.svg" alt="">
+							</a>
+							<!-- end header logo -->
+
+							<!-- header nav -->
+							<ul class="header__nav">
+								<!-- dropdown -->
+
+								<!-- end dropdown -->
+
+								<li class="header__nav-item">
+									<a href="/" class="header__nav-link">Home</a>
+								</li>
+
+
+
+
+
+							
+
+
+					{% if Remove %}
+
+
+						<li class="header__nav-item">
+							<a href="/DeleteShow" class="header__nav-link">Delete Card</a>
+						</li>
+
+
+
+						{% endif %}
+
+
+
+								<li class="header__nav-item">
+									<a href="/faq" class="header__nav-link header__nav-link--active">Help</a>
+								</li>
+
+                                						{% if Name %}
+
+
+
+								<li class="header__nav-item">
+									<a href="/SignOut" class="header__nav-link">Sign Out</a>
+								</li>
+						
+{% endif %}
+
+
+								<!-- dropdown -->
+
+								<!-- end dropdown -->
+							</ul>
+							<!-- end header nav -->
+
+							<!-- header auth -->
+							<div class="header__auth">
+								<button class="header__search-btn" type="button">
+									<i class="icon ion-ios-search"></i>
+								</button>
+
+						{% if  Name %}
+
+
+								<a href="AddMedia" class="header__sign-in">
+									<i class="icon ion-ios-log-in"></i>
+									<span>Add Media</span>
+								</a>
+								<a href="Update" class="header__sign-in">
+									<i class="icon ion-ios-log-in"></i>
+									<span>Time Updater</span>
+								</a>
+{% endif %}
+						{% if Preview %}
+
+						
+
+								<a href="SignIn" class="header__sign-in">
+									<i class="icon ion-ios-log-in"></i>
+									<span>Sign In</span>
+								</a>
+								<a href="SignUp" class="header__sign-in">
+									<i class="icon ion-ios-log-in"></i>
+									<span>Sign Up</span>
+								</a>
+						{% endif %}
+
+							</div>
+							<!-- end header auth -->
+
+							<!-- header menu btn -->
+							<button class="header__btn" type="button">
+								<span></span>
+								<span></span>
+								<span></span>
+							</button>
+							<!-- end header menu btn -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- header search -->
+		<form action="#" class="header__search">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="header__search-content">
+							<input type="text" placeholder="Search for a movie, TV Series that you are looking for">
+
+							<button type="button">search</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<!-- end header search -->
+	</header>
+	<!-- end header -->
+
+	<!-- page title -->
+	<section class="section section--first section--bg" data-bg="/static//img/section/section.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="section__wrap">
+						<!-- section title -->
+						<h2 class="section__title">FAQ</h2>
+						<!-- end section title -->
+
+						<!-- breadcrumb -->
+						<ul class="breadcrumb">
+							<li class="breadcrumb__item"><a href="/">Home</a></li>
+							<li class="breadcrumb__item breadcrumb__item--active">FAQ</li>
+						</ul>
+						<!-- end breadcrumb -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end page title -->
+
+	<!-- faq -->
+	<section class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<div class="faq">
+						<h3 class="faq__title">What is Tracko?</h3>
+						<p class="faq__text">Tracko is a system which helps people to track the series or other things that is being watched or listened. What it does is to tell you how much of which episode of which season you have watched to avoid rewatching or relistening episodes or podcasts. </p>
+					</div>
+
+					<div class="faq">
+						<h3 class="faq__title">Is There any Api to use?</h3>
+						<p class="faq__text">Not yet but as soon as possible we will launch it and make this system possible for developers and programmers all around the world.</p>
+					</div>
+
+
+				</div>
+
+				<div class="col-12 col-md-6">
+					<div class="faq">
+						<h3 class="faq__title">How to use Tracko?</h3>
+						<p class="faq__text">Easy-peasy just sign up or sign in and then add your series or podcasts or whatever and update them from the upside bar.</p>
+					</div>
+
+					<div class="faq">
+						<h3 class="faq__title">Is Tracko OpenSource?</h3>
+						<p class="faq__text">It is FOSS and everyone cann use it free or edit it or even make their own version of TRACKO and launch it on therir own sites.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end faq -->
+
+	<!-- footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<!-- footer list -->
+				<div class="col-6 col-sm-4 col-md-3">
+					<h6 class="footer__title">Help</h6>
+					<ul class="footer__list">
+						<li><a href="/">Home</a></li>
+						<li><a href="/faq">Faq</a></li>
+					</ul>
+				</div>
+				<!-- end footer list -->
+
+				<!-- footer list -->
+				<div class="col-6 col-sm-4 col-md-3">
+					<h6 class="footer__title">Media Tracker</h6>
+					<ul class="footer__list">
+						{% if Preview %}
+						<li><a href="SignIn">Sign In</a></li>
+						<li><a href="SignUp">Sign Up</a></li>
+						{% endif %}
+						{% if Name %}
+						<li><a href="Update">Update Time</a></li>
+						<li><a href="AddMedia">Add Media</a></li>
+						{% endif %}
+					</ul>
+				</div>
+				<!-- end footer list -->
+
+				<!-- footer list -->
+				<div class="col-6 col-sm-4 col-md-3">
+					<h6 class="footer__title">Others</h6>
+					<ul class="footer__list">
+						<li><a href="https://revisto.ir/">Revisto</a></li>
+						<li><a href="https://blog.revisto.ir/">Blog</a></li>
+						<li><a href="https://portfolio.revisto.ir/">Portfolio</a></li>
+					</ul>
+				</div>
+				<!-- end footer list -->
+
+				<!-- footer list -->
+				<div class="col-12 col-sm-4 col-md-3">
+					<h6 class="footer__title">Contact</h6>
+					<ul class="footer__list">
+						<li><a href="mailto:support@moviego.com">Rev@Revisto.ir</a></li>
+					</ul>
+					<ul class="footer__social">
+						<li class="instagram"><a href="https://twitter.com/therevisto"><i class="icon ion-logo-instagram"></i></a></li>
+						<li class="twitter"><a href="https://www.instagram.com/revisto.me/"><i class="icon ion-logo-twitter"></i></a></li>
+					</ul>
+				</div>
+				<!-- end footer list -->
+
+				<!-- footer copyright -->
+				<div class="col-12">
+					<div class="footer__copyright">
+						<small><a target="_blank" href="https://www.Revisto.ir">Revisto</a></small>
+
+						<ul>
+						</ul>
+					</div>
+				</div>
+				<!-- end footer copyright -->
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+
+	<!-- JS -->
+	<script src="/static//js/jquery-3.3.1.min.js"></script>
+	<script src="/static//js/bootstrap.bundle.min.js"></script>
+	<script src="/static//js/owl.carousel.min.js"></script>
+	<script src="/static//js/jquery.mousewheel.min.js"></script>
+	<script src="/static//js/jquery.mCustomScrollbar.min.js"></script>
+	<script src="/static//js/wNumb.js"></script>
+	<script src="/static//js/nouislider.min.js"></script>
+	<script src="/static//js/plyr.min.js"></script>
+	<script src="/static//js/jquery.morelines.min.js"></script>
+	<script src="/static//js/photoswipe.min.js"></script>
+	<script src="/static//js/photoswipe-ui-default.min.js"></script>
+	<script src="/static//js/main.js"></script>
+</body>
+
+</html>
