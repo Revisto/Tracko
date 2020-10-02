@@ -5,13 +5,13 @@ import json
 from _C_ import *
 
 app = Flask(__name__, template_folder="html",static_folder="static")
-app.secret_key = b'_5M=ALmV7d*knY^#'
+app.secret_key = b'SECRETKEY'
 app.config.update({'RECAPTCHA_ENABLED': True,
                    'RECAPTCHA_DATA_ATTRS' : {'theme': 'dark'},
                    'RECAPTCHA_SITE_KEY':
-                       '6Lej5tIZAAAAABScYu3BfpdhU_4oSB-NuSwnYv2_',
+                       'SECRETKEY',
                    'RECAPTCHA_SECRET_KEY':
-                       '6Lej5tIZAAAAAII7crOoMJmtibX-K5TLAmzzdx-Z'})
+                       'SECRETKEY'})
 recaptcha = ReCaptcha(app=app)
 
 @app.route('/')
